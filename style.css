@@ -1,0 +1,69 @@
+#main-game-grid-container {
+    width: 444px;
+    height: 444px;
+    border: 10px solid burlywood;
+    margin: auto;
+    background-color: burlywood;
+
+}
+
+.main-game-grid-cell {
+    width: 99px;
+    height: 99px;
+    border: 6px solid burlywood;
+    float: left;
+    background-color: blanchedalmond;
+}
+
+#top-description {
+    width: 600px;
+    height: 175px;
+    margin: auto;
+    background-color: #faf0e6;
+}
+
+#logo {
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    background-color: #faf0e6;
+    margin: auto;
+}
+
+#logo-2048 {
+    font-size: 45px;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: crimson;
+}
+
+#game-instruction {
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    background-color: #faf0e6;
+}
+
+#game-instruction-text {
+    font-size: 28px;
+    font-family: serif;
+    font-style: oblique;
+    color: crimson;
+}
+
+#new-game {
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    background-color: #faf0e6;;
+}
+
+#new-game-btn {
+    background-color: goldenrod;
+    border: 4px solid goldenrod;
+    color: white;
+    font-weight: 700;
+
+}
