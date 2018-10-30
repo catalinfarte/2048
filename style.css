@@ -1,23 +1,30 @@
 #main-game-grid-container {
     width: 444px;
     height: 444px;
-    border: 10px solid burlywood;
+    border: 10px solid #deb887;
     margin: auto;
-    background-color: burlywood;
+    background-color: #deb887;
 
 }
 
 .main-game-grid-cell {
     width: 99px;
     height: 99px;
-    border: 6px solid burlywood;
+    border: 6px solid #deb887;
     float: left;
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
 }
 
 #top-description {
     width: 600px;
-    height: 175px;
+    height: 125px;
+    margin: auto;
+    background-color: #faf0e6;
+}
+
+#bottom-description {
+    width: 600px;
+    height: 150px;
     margin: auto;
     background-color: #faf0e6;
 }
@@ -35,7 +42,7 @@
     font-family: serif;
     font-style: oblique;
     font-weight: bolder;
-    color: crimson;
+    color: #dc143c;
 }
 
 #game-instruction {
@@ -49,21 +56,60 @@
     font-size: 28px;
     font-family: serif;
     font-style: oblique;
-    color: crimson;
+    color: #dc143c;
 }
 
 #new-game {
     text-align: center;
     width: 600px;
     height: 50px;
-    text-align: center;
+    padding-top: 10px;
     background-color: #faf0e6;;
 }
 
 #new-game-btn {
-    background-color: goldenrod;
-    border: 4px solid goldenrod;
-    color: white;
+    background-color: #daa520;
+    border: 4px solid #daa520;
+    color: #ffffff;
     font-weight: 700;
+    border-radius: 10px;
+    width: 100px;
+}
 
+.scores-container {
+    width: 230px;
+    height: 75px;
+    margin: auto;
+}
+
+#score-container {
+    width: 110px;
+    height: 75px;
+    background-color: #bbada0;
+    float: left;
+    border-radius: 10px;
+}
+
+#best-score-container {
+    width: 110px;
+    height: 75px;
+    background-color: #bbada0;
+    float: right;
+    border-radius: 10px;
+}
+
+p.score {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -1px;
+    font-family: serif;
+    font-weight: bolder;
+    color: linen;
+
+}
+
+p.how-to-play {
+    font-family: serif;
+    text-align: center;
+    font-size: 25px;
 }
