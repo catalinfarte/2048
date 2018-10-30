@@ -4,7 +4,7 @@
     border: 10px solid #deb887;
     margin: auto;
     background-color: #deb887;
-
+    border-radius: 10px;
 }
 
 .main-game-grid-cell {
@@ -13,6 +13,7 @@
     border: 6px solid #deb887;
     float: left;
     background-color: #ffebcd;
+    border-radius: 15px;
 }
 
 #top-description {
